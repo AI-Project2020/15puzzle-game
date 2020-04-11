@@ -2,7 +2,7 @@ from random import randint
  
  
 class Puzzle:
-    def _init_(self):
+    def __init__(self):
         self.items = {}
         self.position = None
  
